@@ -1,0 +1,90 @@
+/*css reset */
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+
+
+    /*Formatação geral */
+
+    html {
+        font-size: calc(10px + 1vw);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        color: #21243d
+    }
+
+    html body a{
+        text-decoration: none;
+        color: black;
+    }
+
+     /*Formatação da página */
+     header {
+        margin: 0px 5vw 0px 5vw ; /*a*/
+     }
+
+
+     header nav ul{
+    display:flex; /*leve os itens para a direita*/
+    justify-content: right; /*itens uns ao lado do outro*/
+}
+header nav ul li {
+    margin:2vw 10px 2vw 10px;
+}
+
+header nav ul li.atual a{color: #ff6464;}
+
+/*Formatação de conteúdo*/
+
+main.works {
+    margin: 0 24vw 0 24vw 
+}
+
+main.works h1 {
+    font-weight: normal ;
+    margin: 0 0 1vw 0;
+    color: #21243d;
+}
+main.works section {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 3vw 0 3vw 0;
+}
+main.works section:last-child {
+    border: none;
+}
+
+main.works section p {
+    margin: 3vw 0 3vw 0;
+}
+main.works section p span {
+color: white ;
+background-color: #ff6464;
+border-radius: 35px ;
+padding: 2px 9px 2px 9px;
+font-weight: bold;
+}
+
+/*Formatação de conteúdo*/
+
+footer{
+    text-align: center;
+    padding: 0 0 12vw 0 ;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+footer nav ul li {
+    margin: 0 50px 0 0;
+    font-size: 2rem;
+}
+
+footer nav ul li a span {
+    color:#21243d;
+}
