@@ -36,14 +36,14 @@
 header nav ul li {
     margin:2vw 10px 2vw 10px;
 }
+main {
+    margin: 0 24vw 0 24vw 
+}
 
 header nav ul li.atual a{color: #ff6464;}
 
-/*Formatação de conteúdo*/
+/*Formatação works*/
 
-main.works {
-    margin: 0 24vw 0 24vw 
-}
 
 main.works h1 {
     font-weight: normal ;
@@ -69,7 +69,51 @@ padding: 2px 9px 2px 9px;
 font-weight: bold;
 }
 
-/*Formatação de conteúdo*/
+/*Formatação do banner*/
+
+section.banner{
+    display:flex;
+    margin: 5vw 0 3vw 0vw;
+}
+section.banner h1 {
+    font-size: 2rem;
+}
+section.banner p {
+margin: 3vw 3vw 3vw 0vw
+}
+
+section.banner button {
+    color: white;
+    background-color: #ff6464;
+    border: none ;
+    font-size: 1rem;
+    padding: 1vw 3vw 1vw 3vw;
+}
+section.rt-post {
+    background: #edf7fa;
+    padding: 2vw 1px 2vw 1vw;
+}
+section.rt-post h2 {
+    font-weight: normal;
+    margin: 0 0 1.5vw 0 
+}
+section.rt-post ul {
+    display: flex;
+}
+
+section.rt-post ul li{
+    background: white;
+    padding: 1.5vw 10px 15px 10px;
+    margin: 0 3vw 0 0;
+}
+section.rt-post ul li:last-child {
+    margin: 0;
+}
+
+section.rt-post ul li p {
+    margin: 1.5vw 0vw 1.5vw 0vw
+}
+/*Formatação rodapé*/
 
 footer{
     text-align: center;
